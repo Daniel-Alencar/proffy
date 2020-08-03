@@ -1,2 +1,2 @@
 # Proffy
- Uma simulação de plataforma de estudos online
+ Uma plataforma de simulação de estudos online
