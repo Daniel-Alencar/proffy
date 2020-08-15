@@ -79,7 +79,6 @@
 
                 <fieldset id="schedule-items">
                     <legend>Horários disponíveis
-
                         <button type="button" id="add-time">+ Novo horário</button>
                     </legend>
                     
@@ -87,7 +86,6 @@
 
                         <div class="select-block">
                             <label for="weekday">Dia da semana</label>
-
                             <select name="weekday[]" required>
                                 <option value="">Selecione uma opção</option>
 
@@ -96,7 +94,7 @@
                                         {{weekday}}
                                     </option>
                                 {% endfor %}
-
+                                
                             </select>
                         </div>
 
@@ -109,6 +107,7 @@
                             <label for="time_to">Até</label>
                             <input type="time" name="time_to[]" required>
                         </div>
+
                     </div>
 
                 </fieldset>
